@@ -33,8 +33,6 @@
     font-size: 150%;
 }
 .image {
-    width: 1980px; 
-    height: 450px;
     margin: 0 auto 15px;
     text-align: center;
     object-fit: cover;
