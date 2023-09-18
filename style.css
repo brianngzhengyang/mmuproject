@@ -46,6 +46,9 @@ main {
     padding: 0 25%;
     color: #fff;
 }
+#buttons {
+    padding: 0 15%;
+}
 p {
     font-size: 130%;
 }
@@ -59,7 +62,7 @@ h2{
     color: #FF9500;
 }
 nav {
-    margin: 0 10%
+    margin: 0 15px
 }
 .navbutton {
     text-align: center;
@@ -78,27 +81,40 @@ nav {
     text-decoration:none;
     font-weight:bold;
     font-size: 100%;
+    -webkit-transition: background-color .3s;
+    -moz-transition:    background-color .3s;
+    -ms-transition:     background-color .3s;
+    -o-transition:      background-color .3s;
+    transition:         background-color .3s;
 }
 .introbutton {
+    text-align: center;
+    margin: 3px 5px;
     display: inline-block;
-    width: 290px;
+    width: 280px;
     height: 55px;
     max-width: 100%;
     padding: 16px 25px;
     min-width: 75px;
     background: #FF9500;
     color: #fff;
-    border: 1px solid #FF9500;
+    border: 1px solid #212131;
     box-sizing: border-box;
     border-radius: 5px;
     text-decoration:none;
     font-weight:bold;
     font-size: 100%;
+    -webkit-transition: background-color .3s;
+    -moz-transition:    background-color .3s;
+    -ms-transition:     background-color .3s;
+    -o-transition:      background-color .3s;
+    transition:         background-color .3s;
 }
 .navbutton:hover {
-    background: #FF9500;
+    background-color: #FF9500;
     color: #fff;
   }
+
 .introbutton:hover {
     background: #212131;
     color: #fff;
