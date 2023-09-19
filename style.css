@@ -4,16 +4,13 @@
     margin: 0px;
     font-family: 'Titillium Web', sans-serif;
     }
-
+/* the orange bar on top */
 .accent {
     position: relative;
     background-color: #F7931A;
     width: 100%;
     box-sizing: border-box;
-    height: 4px;
-    padding: 0;
-    color: #FFFFFF;
-    border: none;
+    height: 3px;
     margin: 0 auto;
 }
 .hook {
@@ -43,7 +40,7 @@
 }
 main {
     text-align: center;
-    padding: 0 25%;
+    padding: 50px 25%;
     color: #fff;
 }
 #buttons {
@@ -64,6 +61,7 @@ h2{
 nav {
     margin: 0 15px
 }
+/* buttons on the main page */
 .navbutton {
     text-align: center;
     margin: 3px 5px;
@@ -120,6 +118,7 @@ nav {
     color: #fff;
     border: 1px solid #FF9500;
   }
+/* podcast section */
 .podcast {
     text-align: center;
     margin: 30px auto;
@@ -128,8 +127,9 @@ nav {
 
 .podcast h2 {
     color:#212131;
-    background-color: aliceblue;
-}
+    background-color: aliceblue;}
+
+/* activity log */
 #activity-log {
     margin-top: 30px;
 }
@@ -142,3 +142,24 @@ table, th, td {
 .name {
     color: antiquewhite;
 }
+/* top navigation bar */
+.navigation {
+    overflow: hidden;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+  }
+  
+  .navigation a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navigation a:hover {
+    background: #FF9500;
+    color: black;
+  }
