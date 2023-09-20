@@ -40,7 +40,7 @@
 
 }
 main {
-    text-align: center;
+    text-align: left;
     padding: 60px 25%;
     color: #fff;
 }
@@ -134,9 +134,6 @@ nav {
     background-color: aliceblue;}
 
 /* activity log */
-#activity-log {
-    margin-top: 60px;
-}
 table, th, td {
     border: 1px solid aliceblue;
     border-collapse: collapse;
@@ -171,7 +168,7 @@ table, th, td {
   }
   /* table of content */
   .table {
-    width: 22%;
+    width: auto;
     padding-right: 0%;
     float: left;
     top: 30%;
@@ -179,6 +176,7 @@ table, th, td {
     padding-left: 5%;
     text-decoration: none;
     color: #fff;
+    list-style-image: url("./img/orangediamond.png");
 }
 .table a {
     text-decoration: none;
@@ -187,4 +185,8 @@ table, th, td {
 .table a:hover {
   background: #FF9500;
   color: black;
+}
+/* filler */
+.filler {
+    height: 60px;
 }
