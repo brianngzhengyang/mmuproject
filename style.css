@@ -56,6 +56,9 @@ p {
     color: #FF9500;
     font-weight: bold;
 }
+h1 {
+    color: #FF9500;
+}
 h2{
     color: #FF9500;
 }
@@ -68,9 +71,9 @@ nav {
     margin: 3px 5px;
     display: inline-block;
     width: 280px;
-    height: 55px;
+    height: 70px;
     max-width: 100%;
-    padding: 16px 25px;
+    padding: 16px 7px;
     min-width: 75px;
     background: #212131;
     color: #fff;
@@ -79,7 +82,7 @@ nav {
     border-radius: 5px;
     text-decoration:none;
     font-weight:bold;
-    font-size: 100%;
+    font-size: 110%;
     -webkit-transition: background-color .3s;
     -moz-transition:    background-color .3s;
     -ms-transition:     background-color .3s;
@@ -91,7 +94,7 @@ nav {
     margin: 3px 5px;
     display: inline-block;
     width: 280px;
-    height: 55px;
+    height: 70px;
     max-width: 100%;
     padding: 16px 25px;
     min-width: 75px;
@@ -102,7 +105,7 @@ nav {
     border-radius: 5px;
     text-decoration:none;
     font-weight:bold;
-    font-size: 100%;
+    font-size: 120%;
     -webkit-transition: background-color .3s;
     -moz-transition:    background-color .3s;
     -ms-transition:     background-color .3s;
@@ -180,3 +183,4 @@ table, th, td {
   background: blue;
   color: white;
 }
+/* cryptomoney.html */
