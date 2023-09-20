@@ -135,7 +135,7 @@ nav {
 
 /* activity log */
 #activity-log {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 table, th, td {
     border: 1px solid aliceblue;
@@ -171,16 +171,20 @@ table, th, td {
   }
   /* table of content */
   .table {
-    text-align: center;
     width: 22%;
     padding-right: 0%;
     float: left;
     top: 30%;
     position: fixed;
     padding-left: 5%;
+    text-decoration: none;
+    color: #fff;
 }
-
+.table a {
+    text-decoration: none;
+    color: #fff;
+}
 .table a:hover {
-  background: blue;
-  color: white;
+  background: #FF9500;
+  color: black;
 }
