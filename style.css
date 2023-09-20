@@ -1,6 +1,5 @@
 *{
     background-color: #212131;
-    padding: 0px;
     margin: 0px;
     font-family: 'Titillium Web', sans-serif;
     scroll-behavior: smooth;
@@ -13,6 +12,7 @@
     box-sizing: border-box;
     height: 3px;
     margin: 0 auto;
+    top: 54px;
 }
 .hook {
     box-sizing: border-box;
@@ -40,21 +40,21 @@
 
 }
 main {
-    text-align: center;
-    padding: 50px 25%;
+    text-align: left;
+    padding: 60px 25%;
     color: #fff;
 }
-#buttons {
-    padding: 0 15%;
-}
 p {
-    font-size: 130%;
+    font-size: 120%;
 }
 .title {
     margin: 10px auto 30px;
     text-align: center;
     color: #FF9500;
     font-weight: bold;
+}
+h1 {
+    color: #FF9500;
 }
 h2{
     color: #FF9500;
@@ -63,23 +63,27 @@ nav {
     margin: 0 15px
 }
 /* buttons on the main page */
+#buttons {
+    padding: 0 15%;
+    text-align: center;
+}
 .navbutton {
     text-align: center;
     margin: 3px 5px;
     display: inline-block;
-    width: 280px;
-    height: 55px;
+    width: 300px;
+    height: 60px;
     max-width: 100%;
-    padding: 16px 25px;
+    padding: 13px 19px 0;
     min-width: 75px;
     background: #212131;
     color: #fff;
     border: 1px solid #FF9500;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 3px;
     text-decoration:none;
     font-weight:bold;
-    font-size: 100%;
+    font-size: 110%;
     -webkit-transition: background-color .3s;
     -moz-transition:    background-color .3s;
     -ms-transition:     background-color .3s;
@@ -90,19 +94,19 @@ nav {
     text-align: center;
     margin: 3px 5px;
     display: inline-block;
-    width: 280px;
-    height: 55px;
+    width: 300px;
+    height: 60px;
     max-width: 100%;
-    padding: 16px 25px;
+    padding: 13px 19px 0;
     min-width: 75px;
     background: #FF9500;
     color: #fff;
     border: 1px solid #212131;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 3px;
     text-decoration:none;
     font-weight:bold;
-    font-size: 100%;
+    font-size: 110%;
     -webkit-transition: background-color .3s;
     -moz-transition:    background-color .3s;
     -ms-transition:     background-color .3s;
@@ -131,9 +135,6 @@ nav {
     background-color: aliceblue;}
 
 /* activity log */
-#activity-log {
-    margin-top: 30px;
-}
 table, th, td {
     border: 1px solid aliceblue;
     border-collapse: collapse;
@@ -149,6 +150,7 @@ table, th, td {
     position: fixed; 
     top: 0;
     width: 100%;
+    font-size: 120%;
   }
   
   .navigation a {
@@ -167,16 +169,31 @@ table, th, td {
   }
   /* table of content */
   .table {
-    text-align: center;
-    width: 22%;
+    width: 25%;
     padding-right: 0%;
     float: left;
     top: 30%;
     position: fixed;
-    padding-left: 5%;
+    text-decoration: none;
+    color: #fff;
+    list-style-image: url("./img/orangediamond.png");
 }
-
+.table li {
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url("./img/orangediamond.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
+.table a {
+    text-decoration: none;
+    color: #fff;
+}
 .table a:hover {
-  background: blue;
-  color: white;
+  color: #FF9500;
+}
+/* filler */
+.filler {
+    height: 60px;
 }
