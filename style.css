@@ -44,9 +44,6 @@ main {
     padding: 60px 25%;
     color: #fff;
 }
-#buttons {
-    padding: 0 15%;
-}
 p {
     font-size: 120%;
 }
@@ -66,20 +63,24 @@ nav {
     margin: 0 15px
 }
 /* buttons on the main page */
+#buttons {
+    padding: 0 15%;
+    text-align: center;
+}
 .navbutton {
     text-align: center;
     margin: 3px 5px;
     display: inline-block;
-    width: 280px;
-    height: 70px;
+    width: 300px;
+    height: 60px;
     max-width: 100%;
-    padding: 16px 7px;
+    padding: 13px 19px 0;
     min-width: 75px;
     background: #212131;
     color: #fff;
     border: 1px solid #FF9500;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 3px;
     text-decoration:none;
     font-weight:bold;
     font-size: 110%;
@@ -93,19 +94,19 @@ nav {
     text-align: center;
     margin: 3px 5px;
     display: inline-block;
-    width: 280px;
-    height: 70px;
+    width: 300px;
+    height: 60px;
     max-width: 100%;
-    padding: 16px 25px;
+    padding: 13px 19px 0;
     min-width: 75px;
     background: #FF9500;
     color: #fff;
     border: 1px solid #212131;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 3px;
     text-decoration:none;
     font-weight:bold;
-    font-size: 120%;
+    font-size: 110%;
     -webkit-transition: background-color .3s;
     -moz-transition:    background-color .3s;
     -ms-transition:     background-color .3s;
