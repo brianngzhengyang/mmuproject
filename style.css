@@ -1,6 +1,5 @@
 *{
     background-color: #212131;
-    padding: 0px;
     margin: 0px;
     font-family: 'Titillium Web', sans-serif;
     scroll-behavior: smooth;
@@ -13,6 +12,7 @@
     box-sizing: border-box;
     height: 3px;
     margin: 0 auto;
+    top: 54px;
 }
 .hook {
     box-sizing: border-box;
@@ -41,7 +41,7 @@
 }
 main {
     text-align: center;
-    padding: 50px 25%;
+    padding: 60px 25%;
     color: #fff;
 }
 #buttons {
@@ -152,6 +152,7 @@ table, th, td {
     position: fixed; 
     top: 0;
     width: 100%;
+    font-size: 120%;
   }
   
   .navigation a {
@@ -183,4 +184,3 @@ table, th, td {
   background: blue;
   color: white;
 }
-
