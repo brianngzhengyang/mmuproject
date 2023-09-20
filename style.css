@@ -164,14 +164,16 @@ table, th, td {
     text-decoration: none;
     box-sizing: border-box;
   }
-  .navigation img {
-    float: left;
-    height: 50px;
+  #disabled{
+    float: left ;
+    height: 50px; 
     width: auto;
     padding: 3px 10px;
   }
   
-  
+  #disabled:hover {
+    background: #212131;
+  }
   .navigation a:hover {
     background: #FF9500;
     color: black;
