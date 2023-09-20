@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Titillium Web', sans-serif;
+    scroll-behavior: smooth;
     }
 /* the orange bar on top */
 .accent {
@@ -157,9 +158,25 @@ table, th, td {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    box-sizing: border-box;
   }
   
   .navigation a:hover {
     background: #FF9500;
     color: black;
   }
+  /* table of content */
+  .table {
+    text-align: center;
+    width: 22%;
+    padding-right: 0%;
+    float: left;
+    top: 30%;
+    position: fixed;
+    padding-left: 5%;
+}
+
+.table a:hover {
+  background: blue;
+  color: white;
+}
