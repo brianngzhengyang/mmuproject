@@ -168,23 +168,29 @@ table, th, td {
   }
   /* table of content */
   .table {
-    width: auto;
+    width: 25%;
     padding-right: 0%;
     float: left;
     top: 30%;
     position: fixed;
-    padding-left: 5%;
     text-decoration: none;
     color: #fff;
     list-style-image: url("./img/orangediamond.png");
+}
+.table li {
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url("./img/orangediamond.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
 }
 .table a {
     text-decoration: none;
     color: #fff;
 }
 .table a:hover {
-  background: #FF9500;
-  color: black;
+  color: #FF9500;
 }
 /* filler */
 .filler {
