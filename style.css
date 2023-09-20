@@ -48,7 +48,7 @@ main {
     padding: 0 15%;
 }
 p {
-    font-size: 130%;
+    font-size: 120%;
 }
 .title {
     margin: 10px auto 30px;
@@ -183,4 +183,4 @@ table, th, td {
   background: blue;
   color: white;
 }
-/* cryptomoney.html */
+
