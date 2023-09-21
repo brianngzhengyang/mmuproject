@@ -208,3 +208,7 @@ table, th, td {
 .filler {
     height: 60px;
 }
+/* img on cryptomoney */
+.aboutimg {
+    border-radius: 50px;
+}
