@@ -212,3 +212,8 @@ table, th, td {
 .aboutimg {
     border-radius: 50px;
 }
+
+#group-members table{
+    border: none;
+}
+ 
