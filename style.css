@@ -211,6 +211,26 @@ table, th, td {
 .filler {
     height: 60px;
 }
+/* img on cryptomoney */
+.aboutimg {
+    border-radius: 50px;
+}
+/* group members table */
+#group-members {
+    border: none;
+    border-color: pink;
+}
+ 
+/* refrences */
+#references a {
+    color: thistle;
+    padding-left: 5%;}
+
+/* profile pic */
+.profilepic {
+    object-fit: cover;
+    width: 350px;
+}
 /*bitcoin image*/
 .img-bit0  {
   width: 300px; 
