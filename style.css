@@ -212,9 +212,10 @@ table, th, td {
 .aboutimg {
     border-radius: 50px;
 }
-
-#group-members table{
+/* group members table */
+#group-members {
     border: none;
+    border-color: pink;
 }
  
 /* refrences */
