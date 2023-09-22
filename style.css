@@ -16,20 +16,7 @@
     top: 54px;
 }
 /* text in image */
-.hook {
-    box-sizing: border-box;
-    position: absolute;
-    float: right;
-    top: 30%;
-    left: 50%;  
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 50px 25px;
-    width: 600px;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    opacity: 0%;
-}
+
 .hook p {
     color: #fff;
     font-size: 150%;
@@ -39,7 +26,6 @@
     text-align: center;
     object-fit: cover;
     max-width: 100%;
-
 }
 main {
     text-align: left;
@@ -63,6 +49,20 @@ h2{
 }
 nav {
     margin: 0 15px
+}
+.topcontainer{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./img/coin2.jpeg);
+    background-attachment: fixed;
+    margin: 0;
+
+}
+.bottomcontainer{
+    position:relative;
+    top: 400px;
+    padding-top: 20px;
 }
 /* buttons on the main page */
 #buttons {
@@ -129,7 +129,7 @@ nav {
 /* podcast section */
 .podcast {
     text-align: center;
-    margin: 30px auto;
+    margin: auto;
     background-color: aliceblue;
 }
 
