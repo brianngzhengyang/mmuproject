@@ -1,8 +1,9 @@
 *{
     background-color: #212131;
-    margin: 0px;
+    margin: 0%;
     font-family: 'Titillium Web', sans-serif;
     scroll-behavior: smooth;
+    
     }
 /* the orange bar on top */
 .accent {
@@ -90,6 +91,7 @@ nav {
     -ms-transition:     background-color .3s;
     -o-transition:      background-color .3s;
     transition:         background-color .3s;
+    z-index: 3;
 }
 .introbutton {
     text-align: center;
@@ -153,6 +155,7 @@ table, th, td {
     width: 100%;
     font-size: 120%;
     box-shadow: 0px 1px #FF9500;
+    z-index:  2;
   }
   
   .navigation a {
@@ -208,17 +211,61 @@ table, th, td {
 .filler {
     height: 60px;
 }
-/* img on cryptomoney */
-.aboutimg {
-    border-radius: 50px;
+/*bitcoin image*/
+.img-bit0  {
+  width: 300px; 
+  position: absolute;
+  right: 10px;
+  top: 150px; 
+  z-index: index 0;
+  
 }
-/* group members table */
-#group-members {
-    border: none;
-    border-color: pink;
+
+.img-bit1 {
+  margin: auto;
+  width: 600px;;
+  position: fixed;
+  right: -250px;
+  top: 105px; ; 
+  z-index: index 1;;
+
 }
- 
-/* refrences */
-#references a {
-    color: thistle;
-    padding-left: 5%;}
+.img-bit2 {
+    margin: auto;
+  width: 600px;;
+  position: fixed;
+  right: -250px;
+  top: 105px; ; 
+  z-index: index 1;;
+    
+} 
+.img-bit3 {
+    margin: auto;
+  width: 600px;;
+  position: fixed;
+  right: -250px;
+  top: 105px; ; 
+  z-index: index 1;;
+
+} 
+.img-bit4 {
+    margin: auto;
+  width: 600px;;
+  position: fixed;
+  right: -250px;
+  top: 105px; ; 
+  z-index: index 1;;
+
+}
+.img-bit5 {
+    margin: auto;
+  width: 600px;;
+  position: fixed;
+  right: -250px;
+  top: 105px; ; 
+  z-index: index 1;;
+
+}
+
+
+
