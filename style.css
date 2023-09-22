@@ -217,3 +217,7 @@ table, th, td {
     border: none;
 }
  
+/* refrences */
+#references a {
+    color: thistle;
+    padding-left: 5%;}
