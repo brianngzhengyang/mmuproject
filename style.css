@@ -232,59 +232,33 @@ table, th, td {
     width: 350px;
 }
 /*bitcoin image*/
-.img-bit0  {
-  width: 300px; 
-  position: absolute;
-  right: 10px;
-  top: 150px; 
-  z-index: index 0;
-  
+/* for btc img on extra info */
+.img-bit0 {
+    margin: auto;
+    width: 600px;
+    position: fixed;
+    right: -330px;
+    top: 105px; ; 
+    z-index: index 1;
+    opacity: 30%;
+    transition: transform .5s ease-in-out;
+  }
+.img-bit0:hover {
+    transform: scale(1.05);
 }
-
+/* btc img on the rest of the page */
 .img-bit1 {
   margin: auto;
-  width: 600px;;
+  width: 600px;
   position: fixed;
-  right: -250px;
+  right: -300px;
   top: 105px; ; 
-  z-index: index 1;;
-
+  z-index: index 1;
+  opacity: 30%;
+  transition: transform .5s ease-in-out;
 }
-.img-bit2 {
-    margin: auto;
-  width: 600px;;
-  position: fixed;
-  right: -250px;
-  top: 105px; ; 
-  z-index: index 1;;
-    
-} 
-.img-bit3 {
-    margin: auto;
-  width: 600px;;
-  position: fixed;
-  right: -250px;
-  top: 105px; ; 
-  z-index: index 1;;
-
-} 
-.img-bit4 {
-    margin: auto;
-  width: 600px;;
-  position: fixed;
-  right: -250px;
-  top: 105px; ; 
-  z-index: index 1;;
-
-}
-.img-bit5 {
-    margin: auto;
-  width: 600px;;
-  position: fixed;
-  right: -250px;
-  top: 105px; ; 
-  z-index: index 1;;
-
+.img-bit1:hover {
+    transform: scale(1.05);
 }
 
 
